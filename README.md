@@ -8,3 +8,4 @@ https://htmlcolorcodes.com/color-picker
 
 Videos útiles:  
 https://www.youtube.com/watch?v=YEmdHbQBCSQ  
+https://www.youtube.com/watch?v=wsTv9y931o8
