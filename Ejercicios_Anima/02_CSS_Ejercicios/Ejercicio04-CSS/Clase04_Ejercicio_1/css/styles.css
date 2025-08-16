@@ -4,7 +4,8 @@ body {
         #6b4306,
         #1e0e29,
         #430357 
-    );  
+    ); 
+    background-attachment: fixed;
 }
 
 
@@ -36,10 +37,10 @@ body {
 }
 
 .Suiza, .Japon, .Italia {
-    padding-bottom: 0;
+    padding-bottom: -10px;
     border: 5px solid;
     border-color: #821daa;
-    border-radius: 2%;
+    border-radius: 6px;
 }
 
 .Suiza:hover, .Japon:hover, .Italia:hover {
