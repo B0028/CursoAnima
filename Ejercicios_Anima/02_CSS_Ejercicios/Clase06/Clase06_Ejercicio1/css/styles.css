@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(44, 48, 53);
+}
+.red {
+    background-color: #cc0000;
+}
+.green {
+    background-color: #6aa84f;
+}
+.yellow {
+    background-color: #f1c232;
+    font-style: italic;
+    font-size: 3em;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.blue {
+    background-color: #1155cc;
+}
+.lightblue {
+    background-color:#3d85c6;
+}
+.tamaño {
+    height: 133.33px;
+    width: 325px;
+}
+.tamañomax {
+    max-width: 975px;
+}
+footer {
+    font-size: 1em;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff49;
+}
