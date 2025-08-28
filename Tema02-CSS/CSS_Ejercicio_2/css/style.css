@@ -1,0 +1,67 @@
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 3vh;
+  padding: 0;
+}
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h2 {
+  background-color: #eaeaea;
+}
+h3#Learn-text {
+  color: #0bd0fe;
+  font-style: italic;
+}
+.blocks {
+  width: fit-content;
+  max-width: 600px;
+  color: #e0eafc;
+  border-radius: 30px 80px 30px 80px;
+  border-style: double;
+  padding: 5vh;
+  border-width: 10px;
+  padding-top: 3px;
+  background: linear-gradient(to right, #130606, #333333);
+}
+.imagenes {
+  opacity: 0.4;
+}
+.anchors {
+  text-decoration: none;
+  color: inherit;
+}
+.description {
+  width: 30vh;
+}
+footer {
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* MARCA DE EJERCICIOS */
+#wm {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: right;
+    width: 190px;
+    border-radius: 40px 0px 0px 40px;
+    padding: 10px 15px 10px 10px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+}
+#wm p {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+/* ------------ */

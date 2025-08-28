@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Ejercicio3</title>
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="css/styles.css" />
+
+  </head>
+  <body>
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg custom-navbar-bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="img/kicks-logo.png" alt="pagelogo" >
+            Kicks
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#">Women</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Men</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Accessories</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- INICIO -->
+    <div class="container my-5">
+      <div class="d-flex row align-items-center">
+        <div class="col-md-5 mb-4 mb-md-0">
+          <h1>
+            A shoe that you are excited to wear every day is all that matter
+          </h1>
+          <p class="mb-4">
+            We started Kicks with the simple desire to build the best shoe. The
+            result of our journey is not only Kicks Model 000, but an amazing
+            community of people we've met along the way.
+          </p>
+          <div class="d-grid">
+              <a href="#" class="btn btn-primary">Explore products &rarr;</a>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <img
+            src="img/background.webp"
+            alt="BG1"
+            class="img-fluid rounded"
+            max-width="1000px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- PRODUCTOS -->
+    <div class="container mb-5">
+      <h3 class="mb-4">Products</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <!-- Producto 1 -->
+        <div class="col-md-4">
+          <div class="card border-1 custom-card-bg">
+            <div class="position-absolute top-0 end-0 m-4">
+              <span class="badge rounded-pill custom-badge-bg p-2">$50</span>
+            </div>
+            <img
+              src="img/1.webp"
+              class="card-img-top"
+              alt="Model 000 Black"
+            />
+            <div class="card-body">
+              <p class="card-title mb-0">Model 000</p>
+              <p class="card-text text-muted small mb-0">Green</p>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="col-md-4">
+          <div class="card border-1 custom-card-bg">
+            <div class="position-absolute top-0 end-0 m-4">
+              <span class="badge rounded-pill custom-badge-bg p-2">$50</span>
+            </div>
+            <img
+              src="img/2.webp"
+              class="card-img-top"
+              alt="Model 000 Black"
+            />
+            <div class="card-body">
+              <p class="card-title mb-0">Model 000</p>
+              <p class="card-text text-muted small mb-0">Black</p>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="col-md-4">
+          <div class="card border-1 custom-card-bg">
+            <div class="position-absolute top-0 end-0 m-4">
+              <span class="badge rounded-pill custom-badge-bg p-2">$50</span>
+            </div>
+            <img
+              src="img/3.webp"
+              class="card-img-top"
+              alt="Model 000 Gray"
+            />
+            <div class="card-body">
+              <p class="card-title mb-0">Model 000</p>
+              <p class="card-text text-muted small mb-0">Gray</p>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 4 -->
+        <div class="col-md-4">
+          <div class="card border-1 custom-card-bg position-relative">
+            <div class="position-absolute top-0 start-0 m-4">
+              <span class="badge rounded-pill custom-badge-sale-bg p-2">SALE!</span>
+            </div>
+            <div class="position-absolute top-0 end-0 m-4">
+              <span class="badge rounded-pill custom-badge-bg p-2">$50</span>
+            </div>
+            <img
+              src="img/1.webp"
+              class="card-img-top"
+              alt="Model 000 Green"
+            />
+            <div class="card-body">
+              <p class="card-title mb-0">Model 000</p>
+              <p class="card-text text-muted small mb-0">Green</p>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 5 -->
+        <div class="col-md-4">
+          <div class="card border-1 custom-card-bg">
+            <div class="position-absolute top-0 end-0 m-4">
+              <span class="badge rounded-pill custom-badge-bg p-2">$50</span>
+            </div>
+            <img
+              src="img/2.webp"
+              class="card-img-top"
+              alt="Model 000 Black"
+            />
+            <div class="card-body">
+              <p class="card-title mb-0">Model 000</p>
+              <p class="card-text text-muted small mb-0">Black</p>
+            </div>
+          </div>
+        </div>
+        <!-- Producto 6 -->
+        <div class="col-md-4">
+          <div class="card border-1 custom-card-bg position-relative">
+            <div class="position-absolute top-0 start-0 m-4">
+              <span class="badge rounded-pill custom-badge-sale-bg p-2">SALE!</span>
+            </div>
+            <div class="position-absolute top-0 end-0 m-4">
+              <span class="badge rounded-pill custom-badge-bg p-2">$50</span>
+            </div>
+            <img
+              src="img/3.webp"
+              class="card-img-top"
+              alt="Model 000 Gray"
+            />
+            <div class="card-body">
+              <p class="card-title mb-0">Model 000</p>
+              <p class="card-text text-muted small mb-0">Gray</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMAGEN FINAL -->
+    <div class="container mb-5">
+      <div class="rounded">
+        <div class="position-relative">
+          <img
+            src="img/background2.webp"
+            class="w-100"
+            alt="BG2"
+          />
+          <div
+            class="position-absolute top-50 start-50 translate-middle text-white text-center w-100"
+          >
+            <h1>Introducing Model 001</h1>
+            <p>Discover now</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="custom-footer-bg text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3 mb-md-0 fw-bold">
+            <span>&copy; Kicks, 2023</span>
+          </div>
+          <div class="col-md-3 mb-3 mb-md-0">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Women</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Men</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Accessories</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Twitter</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- ANIMA EJERCICIOS BRUNO -->
+    <div id="wm">
+        <span><img src="img/favicon.png" alt="" width="30px"></span> <p>Ejercicios Anima <br> Bruno Accorenti</p>
+    </div>
+
+  </body>
+</html>

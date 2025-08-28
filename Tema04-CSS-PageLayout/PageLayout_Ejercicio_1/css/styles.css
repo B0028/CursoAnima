@@ -1,0 +1,88 @@
+body {
+    background: linear-gradient(
+        to right, 
+        #6b4306,
+        #1e0e29,
+        #430357 
+    ); 
+    background-attachment: fixed;
+}
+
+
+.contenedor {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.parraf {
+    width: 5em;
+    height: 2em;
+    background-color: #ece81d;
+    position: absolute;
+    color: #180101;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.Suiza, .Japon, .Italia {
+    height: 400px;
+    padding-bottom: -10px;
+    border: 5px solid;
+    border-color: #821daa;
+    border-radius: 6px;
+}
+
+.Suiza:hover, .Japon:hover, .Italia:hover {
+    box-shadow: #91009e 0 1px 30px;
+}
+
+
+.parraf:hover {
+    box-shadow: #91009e 0 1px 30px;
+}
+
+#link {
+    text-decoration: none;
+    color: #180101;
+}
+
+/* MARCA DE EJERCICIOS */
+#wm {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: right;
+    width: 190px;
+    border-radius: 40px 0px 0px 40px;
+    padding: 5px 15px 5px 10px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 15px;
+}
+#wm p {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+/* ------------ */
+
+
+/* CUSTOM FONT FROM GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+/* ------------ */
