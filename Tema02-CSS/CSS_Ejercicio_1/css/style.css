@@ -1,0 +1,72 @@
+body {
+    background-color: #e7f1f9;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+}
+
+.h1class, #Parrafo1, #Parrafo2, #Parrafo3 {
+    border-radius: 58px 58px 58px 58px;
+    padding: 20px;
+    border: 13px outset #674ea7;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-size: 200% auto;
+    animation: gradientAnimation 2s linear infinite;
+    width: 800px;
+}
+
+p#Parrafo1 {
+    color: #f60;
+}
+
+p#Parrafo2 {
+    color: #79a84f;
+}
+
+p#Parrafo3 {
+    color: #1155cc;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 200% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+
+/* MARCA DE EJERCICIOS */
+#wm {
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.534);
+    text-align: right;
+    width: 190px;
+    border-radius: 40px 0px 0px 40px;
+    padding: 10px 15px 10px 10px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+}
+#wm p {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+/* ------------ */
